@@ -1,11 +1,11 @@
-package main
+package algorithnm
 
 func Quick(sli []int) []int {
 	if len(sli) < 1 {
 		return sli
 	}
 	r := 0
-	l := len(sli)
+	l := len(sli) - 1
 	for i := 0; i < l; i++ {
 		if r > l {
 			break
