@@ -8,8 +8,8 @@ import (
 func main() {
 	//sli := []int{1, 23, 34}
 
-	sli := []int{1, 23, 34, 5, 12, 1, 23, 2, 23, 5, 762, 1, 23, 4}
-	testLen(sli[:7])
+	sli := []int{5, 23, 34, 5, 12, 1, 23, 2, 23, 5, 762, 1, 23, 4}
+	//testLen(sli[:7])
 	algorithnm.Quick(sli)
 	fmt.Print(sli)
 }
