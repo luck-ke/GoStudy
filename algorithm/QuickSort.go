@@ -37,10 +37,6 @@ func sort(l, r int, sli []int) {
 
 }
 
-//func Quick(sli []int) {
-//	sort(0, len(sli)-1, sli)
-//}
-//
 //func sort(left, right int, sli []int) {
 //	if left >= right {
 //		return
