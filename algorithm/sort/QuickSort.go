@@ -1,4 +1,4 @@
-package algorithnm
+package sort
 
 import "fmt"
 
@@ -36,25 +36,3 @@ func sort(l, r int, sli []int) {
 	sort(left, r, sli)
 
 }
-
-//func sort(left, right int, sli []int) {
-//	if left >= right {
-//		return
-//	}
-//	pivot := partition(left, right, sli)
-//	sort(left, pivot-1, sli)
-//	sort(pivot+1, right, sli)
-//}
-//
-//func partition(left, right int, sli []int) int {
-//	pivot := sli[right]
-//	i := left - 1
-//	for j := left; j < right; j++ {
-//		if sli[j] <= pivot {
-//			i++
-//			sli[i], sli[j] = sli[j], sli[i]
-//		}
-//	}
-//	sli[i+1], sli[right] = sli[right], sli[i+1]
-//	return i + 1
-//}

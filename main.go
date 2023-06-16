@@ -1,7 +1,7 @@
 package main
 
 import (
-	algorithnm "GoStudy/algorithm"
+	algorithnm "GoStudy/algorithm/sort"
 	"fmt"
 )
 
