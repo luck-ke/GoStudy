@@ -1,7 +1,5 @@
 package sort
 
-import "fmt"
-
 func Quick(sli []int) {
 	sort(0, len(sli)-1, sli)
 }
@@ -12,8 +10,8 @@ func sort(l, r int, sli []int) {
 	}
 	pivot := sli[l]
 	left := l + 1
-	fmt.Println(pivot)
-	fmt.Println("start", sli)
+	//fmt.Println(pivot)
+	//fmt.Println("start", sli)
 	//right := r
 	//left := l
 	for i := l + 1; i <= r; i++ {
@@ -26,7 +24,7 @@ func sort(l, r int, sli []int) {
 			sli[i], sli[left] = sli[left], sli[i]
 			left++
 		}
-		fmt.Println("for : ", i, sli)
+		//fmt.Println("for : ", i, sli)
 		//l++
 		//r--
 	}
